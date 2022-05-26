@@ -12,7 +12,6 @@ kubectl delete -f ./resources/keycloak.org_keycloakbackups_crd.yaml
 kubectl delete -f ./resources/keycloak.org_keycloakrealms_crd.yaml
 kubectl delete -f ./resources/keycloak.org_keycloakusers_crd.yaml
 kubectl delete -f ./resources/keycloak.org_keycloakclients_crd.yaml
-kubectl delete -f ./resources/keycloak.org_keycloakbackups_crd.yaml
 
 kubectl delete -f ./resources/nginx-controller.yaml
 
